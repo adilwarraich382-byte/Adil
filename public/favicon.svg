@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700" />
+      <stop offset="100%" stop-color="#ff6600" />
+    </linearGradient>
+    <linearGradient id="fireGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3300" />
+      <stop offset="50%" stop-color="#ff9900" />
+      <stop offset="100%" stop-color="#cc0033" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="#08090c"/>
+  <!-- Outer Shield -->
+  <path d="M256 40 L440 90 L440 280 C440 380 340 450 256 480 C172 450 72 380 72 280 L72 90 Z" fill="#141720" stroke="url(#goldGrad)" stroke-width="12"/>
+  <!-- Inner Shield Glow -->
+  <path d="M256 70 L410 110 L410 270 C410 350 325 415 256 440 C187 415 102 350 102 270 L102 110 Z" fill="#0c0e14" stroke="#ff4500" stroke-width="4"/>
+  <!-- Phoenix Flame Wings -->
+  <path d="M256 120 C290 180 370 200 370 260 C370 320 310 330 256 380 C202 330 142 320 142 260 C142 200 222 180 256 120 Z" fill="url(#fireGrad)"/>
+  <!-- Center 'A' Emblem -->
+  <path d="M256 170 L320 330 L285 330 L270 290 L242 290 L227 330 L192 330 Z M256 230 L247 265 L265 265 Z" fill="#ffffff" stroke="#ffd700" stroke-width="3"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "ADIL ESPORTS",
+  "description": "ADIL ESPORTS – Professional Free Fire tournament platform for gamers to compete, join Solo, Duo, Squad matches, submit EasyPaisa entry fees, access secure match rooms, and win cash prizes. PLAY. COMPETE. WIN.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

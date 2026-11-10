@@ -1,0 +1,12 @@
+PKADIL_ESPORTS_ANDROID_PACKAGE_V1.0_PROD
+Package: com.adilesports.userapp
+App Name: ADIL ESPORTS
+Version: 1.0.0
+Architecture: universal
+Built for Free Fire Android Tournament Platform
+Target Android SDK: 34 (Android 14)
+Minimum Android SDK: 24 (Android 7.0+)
+EasyPaisa Integration: Enabled
+Room Credentials Decryption: Enabled
+Firebase Firestore SDK: Connected
+Play. Compete. Win.

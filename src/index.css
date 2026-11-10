@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #08090b;
+    color: #f1f3f7;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Rajdhani', 'Chakra Petch', sans-serif;
+    letter-spacing: 0.03em;
+  }
+}
+
+/* Custom scrollbar hiding for Android app experience */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Esports glow and gaming border effects */
+.glow-gold {
+  box-shadow: 0 0 20px -3px rgba(245, 158, 11, 0.4);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px -3px rgba(239, 68, 68, 0.4);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #ffd700 0%, #ff9900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-fire-gradient {
+  background: linear-gradient(135deg, #ff4d00 0%, #ff0055 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gaming-card-bg {
+  background: linear-gradient(180deg, rgba(26, 29, 36, 0.95) 0%, rgba(14, 16, 20, 0.98) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

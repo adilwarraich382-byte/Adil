@@ -1,0 +1,13 @@
+PK   ADIL_ESPORTS_ADMIN_PACKAGE_V1.0_PROD
+Package: com.adilesports.adminapp
+App Name: ADIL ESPORTS ADMIN
+Version: 1.0.0
+Architecture: universal
+Built for Free Fire Android Tournament Administration
+Target Android SDK: 34 (Android 14)
+Minimum Android SDK: 24 (Android 7.0+)
+EasyPaisa Payment Verification: Enabled
+Room Credentials Management: Enabled
+Dynamic Pricing Sync: Enabled
+Firebase Firestore SDK: Connected
+Control. Verify. Manage.
